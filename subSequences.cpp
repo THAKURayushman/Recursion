@@ -18,10 +18,10 @@ void subsequences(int arr[], int n, int i, vector<int> temp, vector<vector<int>>
 
 int main()
 {
-    int arr[] = {1, 2, 3};
+    int arr[] = {1, 2, 3, 4};
     vector<vector<int>> ans;
     vector<int> temp;
-    subsequences(arr, 3, 0, temp, ans);
+    subsequences(arr, 4, 0, temp, ans);
     for (const auto &row : ans)
     {
         cout << "{";
